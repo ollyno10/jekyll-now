@@ -1,5 +1,5 @@
 ---
-title: My blog week 8
+title: blog week 11
 layout: post
 author: oliver.dodd
 permalink: /my-blog-week-8/
@@ -9,9 +9,9 @@ published: true
 <table>
   <tr>
     <td>Title</td>
-    <td>Fuzebox</td>
+    <td>Codecademy </td>
     <td>Date</td>
-    <td>21/03/17</td>
+    <td>7/5/17</td>
   </tr>
 </table>
 
@@ -19,11 +19,11 @@ published: true
 <table>
   <tr>
     <td>Starting point:</td>
-    <td>wires</td>
+    <td>codecademy</td>
   </tr>
   <tr>
     <td>Target for this lesson?</td>
-    <td>To have a Github Pages Static Website</td>
+    <td>Get as far as you can</td>
   </tr>
   <tr>
     <td>Did I reach my target? 
@@ -41,19 +41,19 @@ published: true
     <td>How did I learn? What strategies were effective? </td>
   </tr>
   <tr>
-    <td>I really learnt how to take long turns with the robot arm we used and occupy myself when i wasn't using it.</td>
+    <td>By getting on with what I needed to do and thoroughly reading the instructions because that really helped.</td>
   </tr>
   <tr>
     <td>What limited my learning? Which habits do I need to work on? </td>
   </tr>
   <tr>
-    <td>nothing</td>
+    <td>By talking to marcus too much :)</td>
   </tr>
   <tr>
     <td>What will I change for next time? How will I improve my learning?</td>
   </tr>
   <tr>
-    <td>I couldn't when using the robot arm we did it perfectly.</td>
+    <td>I cant .</td>
   </tr>
 </table>
 
