@@ -1,5 +1,5 @@
 ---
-title: Blog week 2
+title: The start of a journey of a lifetime!!!
 layout: post
 author: oliver.dodd
 permalink: /copy-of-using-github/
