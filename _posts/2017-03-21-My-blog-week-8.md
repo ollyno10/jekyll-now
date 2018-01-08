@@ -1,5 +1,5 @@
 ---
-title: blog week 11
+title: Hard work and dedication!
 layout: post
 author: oliver.dodd
 permalink: /my-blog-week-8/
