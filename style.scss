@@ -251,7 +251,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $courier;
+  font-family:Liberation Sans;
   font-size: 18px;
 
   @include mobile {
