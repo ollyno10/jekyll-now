@@ -15,35 +15,62 @@
 
 html {
   font-size: 100%;
+  background-color: black;
+  height: 100%;
 }
 
-
 body {
-	background: url(
-body {
-	background: url("http://www.planwallpaper.com/static/images/abstract-rings-background.jpg");
-  background-repeat: no-repeact;
+	background: url("http://i63.tinypic.com/egs8ap.jpg");
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
   font: 14px/1.4 $courier;
-  color:  #001a33;);
-  background-repeat: no-repeact;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-  font: 14px/1.4 ;
   color:  #001a33;
+}
+
+table{
+	width:100%;
+	margin-bottom:15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+table, td {
+    border-radius: 3px;
+    border-collapse: collapse;
+    padding: 15px;
+    text-align: left;
+}
+
+table, th {
+    border-radius: 3px;
+    border-collapse: collapse;
+    padding: 15px;
+    background: linear-gradient(to bottom, #ffffff, #f2f2f2);
+    text-align: left;
+}
+
+iframe {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+	margin-bottom: 15px;
+	width: 100%;
+}
+
+.switcherItem {
+    color: #333;
 }
 
 .container {
   margin: 0 auto;
   max-width: 740px;
+  border-radius: 3px;
   padding: 0 10px;
   width: 100%;
+  background-color:rgba(255, 255, 255, 0.78);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $white;
+  font-family: $helvetica;
+  color: $darkerGray;
   font-weight: bold;
 
   line-height: 1.7;
@@ -56,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 20px;
   a {
     color: inherit;
   }
@@ -167,7 +194,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  
 
   @include mobile {
     text-align: center;
@@ -187,7 +214,7 @@ img {
   }
 
   img {
-    border-radius: 5px;
+    border-radius: 3px;
   }
 }
 
@@ -205,7 +232,7 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: $courier;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -213,7 +240,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: $darkGray;
   font-size: 16px;
 
   @include mobile {
@@ -224,7 +251,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: $courier;
   font-size: 18px;
 
   @include mobile {
@@ -282,19 +309,25 @@ nav {
   }
 }
 
+//not using this at the moment
 .wrapper-footer {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: black;
 }
 
 footer {
   padding: 20px 0;
   text-align: center;
+  position: fixed;
+  left: 47%;
+  bottom: 0;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
+
